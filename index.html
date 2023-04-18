@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+
+    <!-- Title -->
+    <title>Beta</title>
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
+
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Bootstrap HTML template and UI kit by Erilisdesign">
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="assets/vendor/vegas/vegas.min.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CMontserrat:200,300,400,500,700">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <link rel="stylesheet" href="assets/css/teste.css">
+    <link rel="stylesheet" href="assets/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  </head>
+  <body>
+
+    <!-- Loader
+    <div class="loader bg-dark">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only"></span>
+      </div>
+    </div> -->
+    <div class="hero">
+      <video autoplay muted loop class="myVideo">
+          <source src="assets/video/beta.m4v" type="video/mp4" muted autoplay loop>
+        </video>
+        
+
+  </div>
+    
+
+<!-- START Auth -->
+<section class="authentication-box vh-100">
+  <div class="bg-overlay"></div>
+  <div class="container-fluid p-0">
+      <div class="row g-0 align-items-center">
+          <div class="col-lg-3">
+                  <div class="row g-0 justify-content-center d-flex vh-100 align-items-center">
+                      <div class="col-lg-11">
+                         <div class="authen-box">
+                          
+                          <div class="auth-contents">
+                            <div class="img-login text-center pb-4 mb-2">
+                              &nbsp; &nbsp;<img src="./assets/images/EDU.png" alt="" height="60">
+                          </div>
+                              
+                              <form class="custom-form mt-4 pt-2" action="https://ismma.edu.mz/login/index.php" method="post" name="login" id="login-form">
+                                  <div class="mb-3">
+                                      <input type="text" class="form-control" id="email" name="username"
+                                          placeholder="Utilizador">
+                                  </div>
+                                  <div class="mb-3">
+                                      <input type="password" class="form-control" id="password" name="password"
+                                          placeholder="Palavra-passe">
+                                  </div>
+                                  <div class="mt-4">
+                                    <p> <a href="https://ismma.edu.mz/login/forgot_password.php" class="fw-bold text-info text-decoration-underline"> Recuperar palavra-passe </a> </p>&nbsp;
+                                  </div>
+                                  <div class="mb-3">
+                                      <button class="btn btn-warning shadow-none w-100" type="submit" id="submit">Entrar</button>
+                                  </div>
+                                  <hr>
+
+                              
+                                  <div class="text-center">
+                                    <a href="https://www.facebook.com/maedeafrica" target="_blank"><img src="./assets/images/faceb.png" alt="Facebook" class='small px-2 fb'></a>
+                                  </div>
+                              </form>
+                              <!-- end form -->
+                          </div>
+                         </div>
+                      </div>
+                  </div>
+          </div>
+        </div>
+      </div>
+  </section>
+          <!-- end -->
+          
+<!-- END Auth -->
+
+
+    <!-- Overlay - Global -->
+    <div class="overlay overlay-global">
+      <div class="overlay-inner bg-dark opacity-80"></div>
+    </div>
+
+    <!-- Site footer -->
+    <footer>
+     <!-- <aside id="contacts">
+          <p>Av. Vladimir Lenine, 3621 - Maputo </p>
+          <p>Tel: +258 82 625 3616 | Fax: 21 419 772 | Suporte: <a href="mailto:geral@ismma.ac.mz">geral@ismma.ac.mz</a></p>
+      </aside>
+      <aside class="text-right" id="copyright">
+          <p>Pré-requisitos: Cookies, Javascript e Popups activos</p>
+          <p>Copyright <a href="http://www.edudigital.co.mz/" target="_blank"><img src="./assets/images/logo-edudigital.png" title="EDUdigital" alt="EDUdigital"></a></p>
+      </aside>-->
+      <section class="text-right" id="copyright">
+        
+        <p>Copyright @ 2023 EDUdigital. All rights reserved.</p>
+      </section>
+  </footer>
+
+    <!-- Libs JS -->
+    <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="assets/vendor/jquery-form/dist/jquery.form.min.js"></script>
+    <script src="assets/vendor/vegas/vegas.min.js"></script>
+
+    <!-- Theme JS -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+    // Slideshow Background
+    if ($('body').hasClass('slideshow-background')) {
+      $('body.slideshow-background').vegas({
+        preload: true,
+        timer: false,
+        delay: 5000,
+        transition: 'fade',
+        transitionDuration: 1000,
+        firstTransition: 'none',
+        slides: [
+          { src: 'assets/images/image-1.jpg' },
+          { src: 'assets/images/image-2.jpg' },
+          { src: 'assets/images/image-3.jpg' },
+          { src: 'assets/images/image-4.jpg' },
+          { src: 'assets/images/image-5.jpg' }
+        ]
+      });
+    }
+    </script>
+
+<iframe src="https://moodle-manual.edudigital-learn.com/" allowfullscreen scrolling="no" name="iframe" id="manual-window" href="#" onclick="javascript:window.setTimeout(function(){document.getElementById('manual-window').style.top='100%';},250)"></iframe>
+
+  </body>
+
+</html>
