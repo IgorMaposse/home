@@ -2197,7 +2197,7 @@ body {
 }
 
 .form-floating-custom .form-control:focus {
-  border-color: #1fafa5 !important;
+  border-color: #d35b40 !important;
   box-shadow: none;
 }
 
@@ -2262,7 +2262,7 @@ body {
 }
 
 .form-custom .form-control:focus {
-  border-color: #1fafa5;
+  border-color: #d35b40;
   box-shadow: none;
 }
 
@@ -2292,8 +2292,8 @@ body {
 }
 
 .custom-form .form-control:focus {
-  border-color: #1fafa5;
-  box-shadow: #000000;
+  border-color: #d35b40;
+  box-shadow: #d35b40;
 }
 
 .authentication-box {

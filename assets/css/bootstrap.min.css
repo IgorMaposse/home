@@ -1853,7 +1853,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #d35b40;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -1877,7 +1877,7 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #86b7fe;
+  border-color: #d35b40;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
@@ -1902,7 +1902,7 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: #f85f89;
   background-color: #e9ecef;
   pointer-events: none;
   border-color: inherit;
@@ -1921,8 +1921,8 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
-  background-color: #e9ecef;
+  color: #f85f89;
+  background-color: #f85f89;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -1952,10 +1952,10 @@ progress {
   margin: -0.375rem -0.75rem;
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
-  color: #212529;
+  color: #f85f89;
   background-color: #e9ecef;
   pointer-events: none;
-  border-color: inherit;
+  border-color: #f85f89;
   border-style: solid;
   border-width: 0;
   border-inline-end-width: 1px;
@@ -1981,7 +1981,7 @@ progress {
   padding: 0.375rem 0;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #212529;
+  color: #f85f89;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2091,7 +2091,7 @@ textarea.form-control-lg {
   }
 }
 .form-select:focus {
-  border-color: #86b7fe;
+  border-color: #d35b40;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
@@ -2157,7 +2157,7 @@ textarea.form-control-lg {
   filter: brightness(90%);
 }
 .form-check-input:focus {
-  border-color: #86b7fe;
+  border-color: #d35b40;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
@@ -4476,7 +4476,7 @@ fieldset:disabled .btn {
 }
 .accordion-button:focus {
   z-index: 3;
-  border-color: #86b7fe;
+  border-color: #d35b40;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
