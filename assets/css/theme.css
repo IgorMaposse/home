@@ -2293,7 +2293,7 @@ body {
 
 .custom-form .form-control:focus {
   border-color: #1fafa5;
-  box-shadow: none;
+  box-shadow: #000000;
 }
 
 .authentication-box {
@@ -2306,6 +2306,7 @@ body {
   position: relative;
   z-index: 50;
   left: 134px;
+  
 }
 
 .testi-contain {
@@ -2428,24 +2429,30 @@ body {
 .tutorial a{
   padding: 10px 50px 10px 50px;
 }
-
+.EDU img {
+max-width: 100%;
+  height: auto;
+  width: 100%;
+}
 footer{
   display: flex;
-  justify-content:space-between;
+  justify-content:center;
   position:fixed;
   bottom:0;
   /* font-size:0.1em; */
   width:100%;
   z-index:1000;
   padding:10px 30px 10px 30px;
-  background-color: #0a0a0a93;
+  background-color: #00897b;
   color:#FFF;
   margin:0;
  
 
 
 }
-
+.submit{
+  background-color: #d35b40;
+}
 footer aside a{
   text-decoration: underline;
  
