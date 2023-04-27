@@ -1856,7 +1856,7 @@ progress {
   color: #d35b40;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #e7b2a6;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -1879,7 +1879,7 @@ progress {
   background-color: #fff;
   border-color: #d35b40;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(152, 171, 199, 0.25);
 }
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
@@ -2847,12 +2847,12 @@ fieldset:disabled .btn {
 .btn-warning {
   color: rgb(255, 255, 255);
   background-color: #d35b40;
-  border-color:  #ffca2c;
+  border-color:  #d35b40;
 }
 .btn-warning:hover {
   color: rgb(255, 255, 255);
-  background-color: #ffca2c;
-  border-color: #ffc720;
+  background-color: #00897B;
+  border-color: #00897B;
 }
 .btn-check:focus + .btn-warning,
 .btn-warning:focus {
@@ -7071,11 +7071,9 @@ fieldset:disabled .btn {
   font-weight: 400 !important;
 }
 .fw-bold {
-  font-weight: 700 !important;
+  font-weight: 500 !important;
 }
-.fw-bolder {
-  font-weight: bolder !important;
-}
+
 .lh-1 {
   line-height: 1 !important;
 }
@@ -7138,8 +7136,8 @@ fieldset:disabled .btn {
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
 }
 .text-info {
-  --bs-text-opacity: 1;
-  color: rgba(var(--bs-gray-900), var(--bs-text-opacity)) !important;
+  
+  color: #00897b !important;
 }
 .text-warning {
   --bs-text-opacity: 1;
