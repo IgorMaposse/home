@@ -8,14 +8,14 @@
 
 @media (min-aspect-ratio:16/9){
   .myVideo{
-      width: 85%;
+      width: 100%;
       height: auto;
   }
 }
 @media (max-aspect-ratio:16/9){
   .myVideo{
       width: auto;
-      height: 85%;
+      height: 100%;
   }
 }
 .img-login{
