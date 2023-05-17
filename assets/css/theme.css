@@ -15,6 +15,11 @@ body {
   line-height: 26px;
   color: #ffffff;
   font-weight: 400;
+  background-image: url('./assets/images/Back.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
 }
 
 @media (min-width: 1200px) {
